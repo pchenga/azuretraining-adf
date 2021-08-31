@@ -1,0 +1,20 @@
+{
+	"name": "ds_sql_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azure_sqldatabase",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "prakash"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "employee_ouput"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
