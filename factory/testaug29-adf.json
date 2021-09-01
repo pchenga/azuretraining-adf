@@ -1,5 +1,13 @@
 {
 	"name": "testaug29-adf",
+	"properties": {
+		"globalParameters": {
+			"folderPath": {
+				"type": "string",
+				"value": "test"
+			}
+		}
+	},
 	"location": "centralindia",
 	"identity": {
 		"type": "SystemAssigned",
