@@ -1,1 +1,6 @@
-{}
+{
+	"folderPath": {
+		"type": "string",
+		"value": "test"
+	}
+}
