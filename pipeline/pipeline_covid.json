@@ -50,19 +50,13 @@
 				"inputs": [
 					{
 						"referenceName": "ds_blob_csv_params",
-						"type": "DatasetReference",
-						"parameters": {
-							"fileName": "covid_19_india.csv"
-						}
+						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "ds_blob_csv_sink",
-						"type": "DatasetReference",
-						"parameters": {
-							"fileName": "covid_19_india.csv"
-						}
+						"type": "DatasetReference"
 					}
 				]
 			}
